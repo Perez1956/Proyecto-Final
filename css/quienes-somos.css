@@ -26,6 +26,10 @@ body {
   border-bottom-left-radius: 10px;
 }
 
+.header-h1 a {
+  text-decoration: none;
+  color: aliceblue;
+}
 .header-h1,
 .logo {
   cursor: pointer;
