@@ -143,7 +143,7 @@ body {
   margin-bottom: 16px;
 }
 
-.form-register button {
+.btn-enviar {
   font-weight: bold;
   justify-content: center;
   padding: 10px;
@@ -157,7 +157,7 @@ body {
   font-size: 14px;
 }
 
-.form-register button:hover {
+.btn-enviar:hover {
   text-decoration: underline;
 }
 
@@ -202,7 +202,7 @@ body {
   margin-bottom: 16px;
 }
 
-.form-login button {
+.btn-enviar {
   font-weight: bold;
   justify-content: center;
   padding: 10px;
@@ -216,7 +216,7 @@ body {
   font-size: 14px;
 }
 
-.form-login button:hover {
+.btn-enviar:hover {
   text-decoration: underline;
 }
 

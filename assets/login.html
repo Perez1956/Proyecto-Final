@@ -30,8 +30,8 @@
       </nav>
     </header>
     <div class="form">
-      <section class="form-login">
-        <h5>Login</h5>
+      <form class="form-login">
+        <h5>Inciar sesion</h5>
         <input
           class="controls"
           type="text"
@@ -46,12 +46,13 @@
           value=""
           placeholder="Contraseña"
         />
-        <button type="submit" class="btn-enviar">ingresar</button>
-      </section>
-      <section class="form-register">
-        <h5>Register</h5>
+        <input type="submit" value="ingresar" class="btn-enviar" />
+      </form>
+      <form class="form-register">
+        <h5>Registrate</h5>
         <input
           class="controls"
+          id="user-register"
           type="text"
           name="usuario"
           value=""
@@ -59,6 +60,7 @@
         />
         <input
           class="controls"
+          id="password-register"
           type="password"
           name="contrasena"
           value=""
@@ -66,6 +68,7 @@
         />
         <input
           class="controls"
+          id="mail-register"
           type="email"
           name="email"
           value=""
@@ -73,6 +76,7 @@
         />
         <input
           class="controls"
+          id="name-register"
           type="text"
           name="name"
           value=""
@@ -83,8 +87,9 @@
           <option>Femenino</option>
           <option>No especificar</option>
         </select>
-        <button type="submit" class="btn-enviar">ingresar</button>
-      </section>
+        <input type="submit" class="btn-enviar" value="ingresar" />
+      </form>
     </div>
+    <script src="js/sign.js"></script>
   </body>
 </html>
