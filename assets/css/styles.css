@@ -157,12 +157,13 @@
 }
 
 .services {
-  height: 60vh;
+  margin-bottom: 10px;
+  height: 10vh;
 }
 
 .services h2 {
   margin-top: 70px;
-  font-size: 40px;
+  font-size: 50px;
   color: orange;
   text-decoration: underline;
   display: flex;
@@ -226,7 +227,6 @@
   transition: all 0.4s;
   border: solid 3px orange;
   border-radius: 10px;
-  width: ;
 }
 
 .li-maquinas:hover,
@@ -236,6 +236,9 @@
   transform: scale(1.05);
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
 }
+.services {
+  height: 80vh;
+}
 
 .services-ul li h3 {
   text-align: center;
@@ -244,32 +247,74 @@
   color: aliceblue;
 }
 
-.li-spa {
+.container-plan {
+  height: 85vh;
+  justify-content: center;
+  display: grid;
+  flex-wrap: nowrap;
+  grid-template-columns: repeat(3, 30vh);
+  grid-template-rows: 7vh;
+  grid-column-gap: 200px;
+  row-gap: 0px;
 }
 
-.planes {
-  background-color: cadetblue;
+.container-plan {
+  height: 85vh;
 }
-.planes-estandar {
+
+.container-plan h3 {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: orange;
+  color: aliceblue;
 }
+
 .planes-premium {
+  border: 3px solid greenyellow;
+  border-radius: 5px;
+  height: fit-content;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
 }
+
+.planes-premium h3 {
+  background-color: greenyellow;
+}
+.planes-premium span {
+  display: flex;
+  justify-content: center;
+  background-color: greenyellow;
+  border-bottom: 2px solid white;
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container-plan ul {
+  padding: 10px;
+  list-style: none;
+}
+
+.planes h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10vh;
+  font-size: 50px;
+}
+
+.planes-estandar,
 .planes-platino {
+  border-radius: 5px;
+  border: 3px solid orange;
+  height: fit-content;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+@media screen {
 }
 .planes-btn {
+  display: flex;
+  justify-content: center;
 }
 .form {
-  background-color: chartreuse;
-}
-.form-left {
-}
-.form-right {
-}
-.form-name {
-}
-.form-email {
-}
-.form-pregunta {
-}
-.form-btn {
 }
